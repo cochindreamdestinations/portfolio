@@ -52,11 +52,11 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image src="/images/about-image.png" width={500} height={500} alt="Hero Image" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          Sachit Kurup's musical journey began at a young age on the violin,bansuri and vocals. For five years he rigorously trained in Carnatic flute under Guru Shri Karthik Krishna. Sachit's dedication and talent are recognize through accolades including winning for Hindi Manch Sa Re Ga Ma Pa competition at 7. He recently reveived the prestigious IAGB Youth Icon Award in 2023, solidifying his status as a rising star. Sachit's mastery of multiple disciplines and unwavering commit ment havemade his a versatile accomplished young artiste. As he continues honing his Carnatic skills Sachit remains dedicated to pushing boundaries and inspiring generations, his journey testifying to the power of music and youthful potential
+          Sachit Kurup&apos;s musical journey began at a young age on the violin,bansuri and vocals. For five years he rigorously trained in Carnatic flute under Guru Shri Karthik Krishna. Sachit&apos;s dedication and talent are recognize through accolades including winning for Hindi Manch Sa Re Ga Ma Pa competition at 7. He recently reveived the prestigious IAGB Youth Icon Award in 2023, solidifying his status as a rising star. Sachit&apos;s mastery of multiple disciplines and unwavering commit ment havemade his a versatile accomplished young artiste. As he continues honing his Carnatic skills Sachit remains dedicated to pushing boundaries and inspiring generations, his journey testifying to the power of music and youthful potential
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
