@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -11,6 +12,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <meta property="twitter:title" content="Sachit Kurup"></meta>
+        <meta property="twitter:image" content="./images/hero-image.jpeg"></meta>
+        <meta property="twitter:card" content="/images/hero-image.jpeg"></meta>
+      </Head>
       <body className={inter.className}>{children}</body>
     </html>
   )
