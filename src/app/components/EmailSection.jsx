@@ -57,13 +57,13 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="instagram.com">
+          <Link href="https://instagram.com">
             <FaInstagram color="white" size="2em" />
           </Link>
-          <Link href="spotify.com">
+          <Link href="https://spotify.com">
             <FaSpotify color="white" size="2em" />
           </Link>
-          <Link href="facebook.com">
+          <Link href="https://facebook.com">
             <FaFacebook color="white" size="2em" />
           </Link>
           <Link href="https://www.youtube.com/@sachitkurup6152">
