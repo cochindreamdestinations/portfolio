@@ -42,12 +42,12 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "Celebration",
-    description: "Authentication and CRUD operations",
+    title: "Abhi Mujh Mein + Gerua",
+    description: "Flute + Guitar Combination",
     image: "/images/projects/5.webp",
     tag: ["All", "Solo"],
     
-    previewUrl: "/",
+    previewUrl: "https://www.youtube.com/watch?v=QcqBZ4s14qI",
   },
   {
     id: 6,
