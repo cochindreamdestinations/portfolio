@@ -52,12 +52,25 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} alt="Hero Image" />
+        <Image src="/images/about.webp" width={500} height={500} alt="Hero Image" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          Sachit Kurup&apos;s musical journey began at a young age on the violin,bansuri and vocals. For five years he rigorously trained in Carnatic flute under Guru Shri Karthik Krishna. Sachit&apos;s dedication and talent are recognize through accolades including winning for Hindi Manch Sa Re Ga Ma Pa competition at 7. He recently reveived the prestigious IAGB Youth Icon Award in 2023, solidifying his status as a rising star. Sachit&apos;s mastery of multiple disciplines and unwavering commit ment havemade his a versatile accomplished young artiste. As he continues honing his Carnatic skills Sachit remains dedicated to pushing boundaries and inspiring generations, his journey testifying to the power of music and youthful potential
-          </p>
+          Sachit Kurup's musical journey began as early as age 4, sparked by an innate love for vocal 
+music and nurtured by the vibrant environment of his father’s band rehearsals. From listening to 
+a rich tapestry of musical genres even before birth, Sachit has grown into an exceptional and 
+versatile instrumentalist. He plays a wide range of instruments varying from the Violin, the Indian 
+Flute, all the way to the Trumpet. His deepest  connection to the woodwind family, particularly 
+during live performances, has become a hallmark of his artistry. 
+Over the years, Sachit has showcased his immense talent across a variety of platforms. From 
+original dance recitals highlighting traditional music to dynamic jazz performances, wind 
+ensembles, and powerful marching band displays, his range knows no bounds. He has put his 
+talents on showcase with well reputed musicians and artists from all across India. He has 
+participated in numerous competitions and won several awards. Sachit’s passion has taken him 
+from intimate small-group performances to captivating solo showcases at cultural festivals and 
+community fundraisers, leaving audiences moved by his dedication and skill. 
+For Sachit, music isn’t just a hobby—it’s an integral part of who he is, a lifelong passion woven 
+into every moment of his life. </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
@@ -78,7 +91,7 @@ const AboutSection = () => {
               active={tab === "certifications"}
             >
               {" "}
-              Certifications{" "}
+              Awards & Shows{" "}
             </TabButton>
           </div>
           <div className="mt-8">
