@@ -56,7 +56,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          Sachit Kurup's musical journey began as early as age 4, sparked by an innate love for vocal 
+         {` Sachit Kurup's musical journey began as early as age 4, sparked by an innate love for vocal 
 music and nurtured by the vibrant environment of his father’s band rehearsals. From listening to 
 a rich tapestry of musical genres even before birth, Sachit has grown into an exceptional and 
 versatile instrumentalist. He plays a wide range of instruments varying from the Violin, the Indian 
@@ -70,7 +70,7 @@ participated in numerous competitions and won several awards. Sachit’s passion
 from intimate small-group performances to captivating solo showcases at cultural festivals and 
 community fundraisers, leaving audiences moved by his dedication and skill. 
 For Sachit, music isn’t just a hobby—it’s an integral part of who he is, a lifelong passion woven 
-into every moment of his life. </p>
+into every moment of his life.` } </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
