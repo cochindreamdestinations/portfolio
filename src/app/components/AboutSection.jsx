@@ -10,9 +10,9 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Violin</li>
+        <li>Trumpet</li>
         <li>Bansuri</li>
         <li>Carnatic Flute</li>
-        <li>Vocals</li>
         
       </ul>
     ),

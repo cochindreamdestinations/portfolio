@@ -20,7 +20,7 @@ const projectsData = [
     image: "/images/projects/2.jpeg",
     tag: ["All", "Concert"],
     
-    previewUrl: "https://youtu.be/nKggbBMtxc4?si=5RB_qfrRSZ10q-Lp",
+    previewUrl: "https://youtu.be/QcqBZ4s14qI?si=5NKDWcKWp3Owd7fU",
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const projectsData = [
     image: "/images/projects/IMG_1163.webp",
     tag: ["All", "Concert"],
     
-    previewUrl: "https://youtu.be/QcqBZ4s14qI?si=5NKDWcKWp3Owd7fU",
+    previewUrl: "https://youtu.be/nKggbBMtxc4?si=5RB_qfrRSZ10q-Lp",
   },
   {
     id: 5,
