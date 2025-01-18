@@ -9,7 +9,7 @@ const projectsData = [
     id: 1,
     title: "Moham kondu njan- NEMA event",
     description: "Flute Cover",
-    image: "/images/projects/1.png",
+    image: "/images/projects/moham.png",
     tag: ["All", "Solo"],
     previewUrl: "https://youtu.be/i0_ef7pzYZ0?si=E7wEWMTQA2cV-hw2",
   },
@@ -26,7 +26,7 @@ const projectsData = [
     id: 3,
     title: "Jab deep jale aana ",
     description: "Performing online for IAGB at Covid time",
-    image: "/images/projects/IMG_0139.webp",
+    image: "/images/projects/1.png",
     tag: ["All", "Solo"],
     
     previewUrl: "https://youtu.be/JC_BXEwf0gY?feature=shared",
@@ -53,7 +53,7 @@ const projectsData = [
     id: 6,
     title: "Mother’s Day special for mom- May 2024",
     description: "Mothers day special",
-    image: "/images/projects/IMG_9536.jpeg",
+    image: "/images/projects/mothers_day.webp",
     tag: ["All", "Solo"],
     
     previewUrl: "https://youtu.be/H7W3R67WpQI?si=J3tUnoDsmi0UywG-",
