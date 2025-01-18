@@ -23,11 +23,9 @@ const HeroSection = () => {
             <TypeAnimation
               sequence={[
                 "Sachit Kurup",
-                1000,
+                1500,
                 "A Musician",
-                1000,
-                "A Flute Player",
-                1000,
+                
 
               ]}
               wrapper="span"
