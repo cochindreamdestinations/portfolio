@@ -24,21 +24,20 @@ const HeroSection = () => {
               sequence={[
                 "Sachit Kurup",
                 1000,
-                "Musician",
+                "A Musician",
                 1000,
-                "Flute Player",
+                "A Flute Player",
                 1000,
-                "Vocalist",
-                1000,
+
               ]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+          {/* <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             Sachit Kurup has participated in Sa Re Ga Ma Pa show
-             </p>
+             </p> */}
           <div>
             <Link
               href="/#contact"
