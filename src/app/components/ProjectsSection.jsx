@@ -9,7 +9,7 @@ const projectsData = [
     id: 1,
     title: "Moham kondu njan- NEMA event",
     description: "Flute Cover",
-    image: "/images/projects/moham.png",
+    image: "/images/projects/moham.PNG",
     tag: ["All", "Solo"],
     previewUrl: "https://youtu.be/i0_ef7pzYZ0?si=E7wEWMTQA2cV-hw2",
   },
