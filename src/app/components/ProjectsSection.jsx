@@ -58,15 +58,7 @@ const projectsData = [
     
     previewUrl: "https://youtu.be/H7W3R67WpQI?si=J3tUnoDsmi0UywG-",
   },
-  {
-    id: 7,
-    title: "First prize winning- Titanium song for Drishya April 2016",
-    description: "Titanium song for Drishya April 2016",
-    image: "/images/projects/IMG_8726.webp",
-    tag: ["All", "Solo"],
-    
-    previewUrl: "https://youtu.be/nOueml22qe4?si=CxbTOALD7wIlCOH0",
-  },
+  
   {
     id: 8,
     title: "Playing Indian National Anthem for IAGB- January 2022",
