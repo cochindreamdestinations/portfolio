@@ -44,7 +44,7 @@ const projectsData = [
     id: 5,
     title: "Cover for Suraj hua madham- January 2024",
     description: "January 2024",
-    image: "/images/projects/IMG_9544.jpeg",
+    image: "/images/projects/suraj.jpg",
     tag: ["All", "Solo"],
     
     previewUrl: "https://youtu.be/fmIe-iDGMC4?si=VBYajlANcueGoNuv",
@@ -64,7 +64,7 @@ const projectsData = [
     title: "Playing Indian National Anthem for IAGB- January 2022",
     description: "IAGB- January 2022",
     image: "/images/projects/9.webp",
-    tag: ["All", "Solo"],
+    tag: ["All", "Concert"],
     
     previewUrl: "https://www.youtube.com/watch?v=rZymx9_U80Q",
   },

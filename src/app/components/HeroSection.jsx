@@ -25,7 +25,8 @@ const HeroSection = () => {
                 "Sachit Kurup",
                 1500,
                 "a Musician",
-                
+                1000,
+                ""
 
               ]}
               wrapper="span"

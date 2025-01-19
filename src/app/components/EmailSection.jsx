@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { FaFacebook, FaSpotify, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaPhoneAlt, FaSpotify, FaYoutube } from "react-icons/fa";
 
 import { FaInstagram } from "react-icons/fa";
 import Link from "next/link";
@@ -57,17 +57,16 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="https://instagram.com">
+          <Link href="https://www.instagram.com/sachit_kurup">
             <FaInstagram color="white" size="2em" />
           </Link>
-          <Link href="https://spotify.com">
-            <FaSpotify color="white" size="2em" />
-          </Link>
-          <Link href="https://facebook.com">
-            <FaFacebook color="white" size="2em" />
-          </Link>
+
           <Link href="https://www.youtube.com/@sachitkurup6152">
             <FaYoutube color="white" size="2em" />
+          </Link>
+
+          <Link href={`tel:1-603-566-3402`}>
+            <FaPhoneAlt color="white" size="2em" />
           </Link>
         </div>
       </div>

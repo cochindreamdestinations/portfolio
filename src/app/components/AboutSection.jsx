@@ -22,8 +22,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Music Academy</li>
-        <li>Kochi</li>
+        <li>High school senior @ Nashua North High School </li>
+        
       </ul>
     ),
   },
@@ -44,6 +44,7 @@ const AboutSection = () => {
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
+    console.log("tabchange", id)
     startTransition(() => {
       setTab(id);
     });
